@@ -10,7 +10,7 @@ class Search(Page):
         return self.by_xpath("//button[@type='button']")
 
     def img_commodity(self):
-        return self.by_xpath("//a[@id='pdlink1_205044']")
+        return self.by_xpath("//a[@id='pdlink1_100002668316']")
 
     def search(self, value):
         self.open("https://www.yhd.com")
