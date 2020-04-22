@@ -1,9 +1,9 @@
 from BeautifulReport import BeautifulReport
 import unittest, time
-from pubilc import case
+from pubilc.case import YHDtest
 
 suit = unittest.TestSuite()
-suit.addTest(case.YHDtest('test_search'))
+suit.addTest(YHDtest('test_search'))
 
 if __name__ == '__main__':
     reportName = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime()) + '.html'
